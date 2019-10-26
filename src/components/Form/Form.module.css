@@ -1,0 +1,8 @@
+.Form {
+    display: flex;
+    flex-direction: column;
+}
+
+.FormInput {
+    margin-bottom: 10px;;
+}
