@@ -1,12 +1,12 @@
 import React from 'react';
-import Aux from '../../../hoc/Auxiliary/Auxiliary';
+import classes from './Post.module.css';
 
 const post = (props) => {
     return (
-      <Aux>
+      <div className={classes.Post}>
         <h3>{props.post.title}</h3>
         <p>{props.post.body}</p>
-      </Aux>
+      </div>
     )
 }
 

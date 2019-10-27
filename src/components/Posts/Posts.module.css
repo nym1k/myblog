@@ -1,0 +1,18 @@
+.Posts {
+  padding: 40px 0;
+}
+
+.Posts h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.Posts ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+} 
+
+.Posts li {
+  list-style: none;
+}

@@ -1,0 +1,27 @@
+.Header {
+  padding: 20px;
+  background-color: #f5f6f7;
+}
+
+.Header ul {
+  width: 100%;
+  text-align: center;
+}
+
+.Header li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.Header li:last-child {
+  margin-right: 0;
+}
+
+.Header a {
+  text-decoration: none;
+  transition: color .3s ease;
+}
+
+.Header a:hover {
+  color: red;
+}

@@ -1,8 +1,31 @@
 .Form {
-    display: flex;
-    flex-direction: column;
+  padding: 40px 0;
 }
 
-.FormInput {
-    margin-bottom: 10px;;
+.Form h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+  
+.Form form {
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.Form input,
+.Form textarea {
+  margin-bottom: 10px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  font-family: tahoma;
+  background-color: #f5f6f7;
+}
+
+.Form input[type="submit"] {
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  padding: 10px 20px;
 }
